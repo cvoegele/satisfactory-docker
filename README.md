@@ -18,4 +18,8 @@ Or:
 
 ```shell
 git clone https://github.com/cvoegele/satisfactory-docker.git
+cd satisfactory-docker
+docker-compose -f docker-compose.yaml up -d
 ```
+
+This is essentially the same command as above. The only difference is in the fact that the port and volume config is in the yaml and not passed via command line argments.

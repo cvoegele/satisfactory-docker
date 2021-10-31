@@ -1,7 +1,7 @@
 version: '3'
 services:
   satisfactory:
-    build: .
+    iamge: ghcr.io/cvoegele/satisfactory-docker:main
     restart: always
     ports:
       - 15777:15777/udp

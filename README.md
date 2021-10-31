@@ -9,7 +9,7 @@ Ready made docker Images to run a dedicated satisfactory server
 2. Start docker container with this command
 
 ```shell
-docker run -d -p 15777:15777 -p 15000:15000 -p 7777:7777 -v ./data:/satisfactory-server ghcr.io/cvoegele/satisfactory-docker:main
+docker run -d -p 15777:15777 -p 15000:15000 -p 7777:7777 -v ./data:/home/factory-worker/satisfactory-server ghcr.io/cvoegele/satisfactory-docker:main
 ```
 
 Or:
